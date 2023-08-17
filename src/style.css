@@ -1,0 +1,21 @@
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie-list h1{
+    background-color: bisque;
+    color: tomato;
+}
+
+.movie-display{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.movie-display h1,p{
+    color: white;
+}
