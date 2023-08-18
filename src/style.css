@@ -1,3 +1,6 @@
+/* *{
+    background-color: aliceblue;
+} */
 .movie-list{
     display: flex;
     flex-wrap: wrap;
@@ -5,17 +8,27 @@
 }
 
 .movie-list h1{
-    background-color: bisque;
-    color: tomato;
+    color:rgb(133, 8, 8);
 }
 
 .movie-display{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    background-color: black;
+    background-color: aliceblue;
 }
 
-.movie-display h1,p{
-    color: white;
+
+.movie-display h1{
+    text-align: center;
+    color: black;
+}
+
+img{
+    width: 400px;
+    height:500px;
+}
+
+.container{
+    display: flex;
+    width:100%;
 }
